@@ -1,0 +1,155 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+
+body{
+    /*background-color:	#5cdb95;*/
+    background-color: #6cdac4;;
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    
+}
+
+nav {
+    background-color:  #f7db7f;
+  }
+  
+  nav a{
+    color: black;
+  }
+
+.jumbotron {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:	#5cdb95;
+    text-align: center;
+	color: #edf5e1;
+}
+
+.panel-margin {
+	margin-top: 180px;
+	margin-bottom: 80px;
+}
+
+.thumbnail{
+    border-radius: 8px;
+    background-color: #8ee4af;
+    box-shadow: 5px 10px 8px #379683;
+    color: #edf5e1;
+  }
+
+
+  .employee-form {
+    border-style: solid;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px; */
+    padding: 10px;
+    /* width: 50%; */
+    margin: auto;
+    width: 50%;
+    /* border: 3px solid green; */
+    /* padding: 10px; */
+}
+
+.employees-table {
+    border-style: solid;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    margin-left: 200px; 
+    padding: 20px;
+    width: 70%;
+    border: 3px solid green; 
+    /* padding: 10px; */
+}
+
+body > table{
+    width: 80%;
+}
+
+table{
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #da1d1d;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text], input[type=number], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(220, 233, 241);
+    color: black;
+    padding: 10px 18px;
+    /* margin: 0px 0; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+    font-weight: 500;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+.cont{
+  margin-top: 120px;
+  width: 600px;
+  
+  background-color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.head{
+  background-color: rgb(220, 233, 241);
+  padding-top: 1px;
+  padding-bottom: 7px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+h3{
+  text-align: center;
+}
+
+.buttonset{
+  margin-top: 20px;
+  margin-bottom: 18px;
+}
