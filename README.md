@@ -1,5 +1,6 @@
 # Employee-Management-System
-# Made frontend using HTML , CSS , BOOTSTRAP and backend using PHP
+Made frontend using HTML , CSS , BOOTSTRAP and backend using PHP
+#
 For Database MySQL was used and server was WAMP
 #
 Admin Login Page - ![admin_page](https://user-images.githubusercontent.com/64746160/147698471-618ab176-79e8-4529-97ea-fca6d5b9769b.jpg)
